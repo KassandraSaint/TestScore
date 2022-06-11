@@ -24,7 +24,7 @@ namespace TestScore
             // Trying to open and read a file
             try
             {
-                StreamReader inputFile = File.OpenText("TestScores.txt");
+                StreamReader inputFile = File.OpenText("Resources/TestScores.txt");
 
                 // While there is data reading contents from the file
                 while (!inputFile.EndOfStream)
